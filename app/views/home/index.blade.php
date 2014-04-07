@@ -63,7 +63,7 @@
 					
 					<div class="row">
 						
-						<div class="col-md-4">
+						<div class="col-md-4 text-left">
 							<h3>Projetos elétricos:</h3>
 
 							<ul class="list list-unstyled">
@@ -76,7 +76,7 @@
 							</ul>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-4 text-left">
 							<h3>Montagem e manutenção:</h3>
 
 							<ul class="list list-unstyled">

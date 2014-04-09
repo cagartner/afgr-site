@@ -10,7 +10,7 @@ module.exports = function( grunt ) {
       my_target : {
         files : {
           'assets/js/main.js' : [
-            'assets/_js/jquery.js' // Usar esse javascript para funcionar no IE7 e 8.
+            'assets/_js/main.js' // Usar esse javascript para funcionar no IE7 e 8.
           ]
         }
       }

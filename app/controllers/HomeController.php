@@ -17,7 +17,7 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-
+		Former::framework('TwitterBootstrap3');
 		
 		return View::make('home.index');
 	}

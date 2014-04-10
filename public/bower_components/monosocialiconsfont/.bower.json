@@ -1,0 +1,14 @@
+{
+  "name": "monosocialiconsfont",
+  "homepage": "https://github.com/drinchev/monosocialiconsfont",
+  "_release": "master",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e3ad9be016132f1e2711bf41370bf1fa63ba3833"
+  },
+  "_source": "git://github.com/drinchev/monosocialiconsfont.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/drinchev/monosocialiconsfont.git",
+  "_direct": true
+}

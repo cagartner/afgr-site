@@ -1,5 +1,6 @@
 
 @white: white;
+@black: black;
 @blue: #1283c5;
 @gray: #E4E4E4;
 @gray-dark: #666666;
@@ -58,7 +59,7 @@ body {
 	.forma-contato {
 		position: absolute;
 		bottom: 30px;
-		right: 50px;
+		right: 40px;
 		background: @gray;
 		padding: 5px;
 	}
@@ -149,3 +150,21 @@ body {
 	}
 }
 
+.dados-contato {
+	margin-top: 400px;
+	color: @black;
+
+	a {
+		color: @black;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+@media (max-width: 768px) { 
+	.dados-contato {
+		margin-top: 10px;
+	}
+}

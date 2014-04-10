@@ -3,14 +3,14 @@
 @section('content')
 	
 	<!-- Banner top -->
-	<section class="banner-top">	
+	<section class="banner-top" id="home">	
 
 		<div class="container">	
 			{{ HTML::image('assets/img/banner-top.jpg', 'AFGR Engenharia Elétrica') }}
 
 			<div class="forma-contato">				
 				<strong>Entre em contato:</strong><br>
-				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-facebook"></i> Facebook</a>
+				<a href="#" class="btn btn-default"><span class="socicon socicon-facebook"></span> Facebook</a>
 				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-envelope"></i> Contato</a>
 				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-phone-alt"></i> 47 3337-3333</a>
 			</div>
@@ -20,7 +20,7 @@
 	</section>
 	
 	<!-- Section sobre -->
-	<section class="section sobre gray" name="sobre">
+	<section class="section sobre gray" id="sobre" name="sobre">
 		
 		<div class="container">
 			
@@ -46,7 +46,7 @@
 	</section>
 	
 	<!-- Section serviços -->
-	<section class="section servicos white" name="servicos">
+	<section class="section servicos white" id="servicos" name="servicos">
 			
 		<div class="container">
 			
@@ -117,8 +117,8 @@
 				    </a>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">
-					<a href="{{ URL::asset('assets/img/servico/4.jpg') }}" title="Projeto de Automação">
-				        {{ HTML::image('assets/img/servico/thumb/4.png', "Projeto de Automação") }}
+					<a href="{{ URL::asset('assets/img/servico/3.jpg') }}" title="Projeto comercial / residencial">
+				        {{ HTML::image('assets/img/servico/thumb/3.png', "Projeto comercial / residencial") }}
 				        <br>
 				        <strong>PROJETO DE AUTOMAÇÃO</strong>
 				    </a>
@@ -131,7 +131,7 @@
 	</section>
 	
 	<!-- Section contato -->
-	<section class="section contato gray">
+	<section class="section contato gray" id="contato" name="contato">
 		
 		<div class="container">
 
@@ -167,21 +167,18 @@
 						<li class="black">47 3333-3333 <i class="glyphicon glyphicon-phone-alt"></i></li>
 						<li class="black">47 3333-3333 <i class="glyphicon glyphicon-phone-alt"></i></li>
 						<li class="black">47 3333-3333 <i class="glyphicon glyphicon-phone-alt"></i></li>
-						<li><a href="http://www.facebook.com/afgr">facebook.com/afgr {{ HTML::image('assets/img/glyphicons_social_30_facebook.png')}}</a></li>
-						<li><a href="mailto:contato@afgr.com.br">contato@afgr.com.br <i class="glyphicon glyphicon-email"></i></a></li>
+						<li><a href="http://www.facebook.com/afgr" target="_blank" title="Curta-nos no Facebook">facebook.com/afgr <span class="socicon socicon-facebook"></span></a></li>
+						<li><a href="mailto:contato@afgr.com.br" target="_blank" title="Envia-nos um e-mail!">contato@afgr.com.br <i class="glyphicon glyphicon-envelope"></i></a></li>
 					</ul>
 				</div>
 
 			</div>
 
-			<div class="row text-right">
-				
-				<a href="http://www.carlosgartner.com.br">Carlos A Gartner</a>
-
-			</div>
-
 		</div>
 
+		<!-- <a href="http://www.carlosgartner.com.br" class="assinatura" target="_blank" title="Desenvolvido por Carlos A. Gartner">Carlos A Gartner</a> -->
+
 	</section>
+
 
 @stop

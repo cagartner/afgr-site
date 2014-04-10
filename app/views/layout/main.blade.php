@@ -14,6 +14,7 @@
     <!-- Bootstrap core CSS -->
     {{ HTML::style('bower_components/bootstrap/dist/css/bootstrap.min.css') }}
     {{ HTML::style('bower_components/blueimp-gallery/css/blueimp-gallery.min.css') }}
+    {{ HTML::style('social/socicon.css') }}
 
     <!-- Custom styles for this template -->
     {{ HTML::style('http://fonts.googleapis.com/css?family=Lato:400,400italic') }}
@@ -38,14 +39,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand logo-top text-hide" href="#">AFGR - Engenharia</a>
+          <a class="navbar-brand logo-top text-hide" href="#home">AFGR - Engenharia</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
-            <li class="active"><a href="#!/home">Home</a></li>
-            <li><a href="#!/sobre">Sobre</a></li>
-            <li><a href="#!/servicos">Serviços</a></li>
-            <li><a href="#!/contato">Contato</a></li>            
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>            
           </ul>
         </div><!--/.nav-collapse -->
       </div>

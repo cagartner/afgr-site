@@ -12,7 +12,7 @@
 				<strong>Entre em contato:</strong><br>
 				<a href="http://www.facebook.com.br/afgr" class="btn btn-default"><span class="socicon socicon-facebook"></span> Facebook</a>
 				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-envelope"></i> Contato</a>
-				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-phone-alt"></i> 47 3337-3333</a>
+				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-phone-alt"></i> 47 8822-1088</a>
 			</div>
 
 		</div>		
@@ -144,7 +144,13 @@
 					<h2>ENTRE EM CONTATO</h2>
 
 					<p>Peça um orçamento, ou simplesmente, chame-nos para conversar.</p>
-
+					
+					@if (Session::has('success'))
+						<div class="alert alert-success">
+							<a class="close" data-dismiss="alert">&times;</a>
+							<strong>Sucesso!</strong> {{ Session::get('success') }}.
+						</div>
+					@endif
 					
 					{{ Former::vertical_open()->rules(array(
 						'name'     => 'required|max:255',
@@ -168,12 +174,21 @@
 
 				<div class="col-md-6 col-sm-6 col-xs-12 text-right dados-contato">
 					<ul class="list list-unstyled">
-						<li class="black">47 3333-3333 <i class="glyphicon glyphicon-phone-alt"></i></li>
-						<li class="black">47 3333-3333 <i class="glyphicon glyphicon-phone-alt"></i></li>
-						<li class="black">47 3333-3333 <i class="glyphicon glyphicon-phone-alt"></i></li>
+						<li class="black">47 8822-1088 - Graziel <i class="glyphicon glyphicon-phone-alt"></i></li>
+						<li class="black">47 9656-9155 - Rafael <i class="glyphicon glyphicon-phone-alt"></i></li>
 						<li><a href="http://www.facebook.com/afgr" target="_blank" title="Curta-nos no Facebook">facebook.com/afgr <span class="socicon socicon-facebook"></span></a></li>
 						<li><a href="mailto:contato@afgr.com.br" title="Envia-nos um e-mail!">contato@afgr.com.br <i class="glyphicon glyphicon-envelope"></i></a></li>
 					</ul>
+
+					<hr class="hr-title pull-right">
+					<br>
+					<br>
+
+					<address>
+					  <strong>AFGR Engenharia Elétrica.</strong><br>
+					  Rua Vladimir Hexsog, 180<br>
+					  Itoupava Central - Blumenau/SC<br>
+					</address>
 				</div>
 
 			</div>

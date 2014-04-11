@@ -2,28 +2,26 @@
 
 class HomeController extends BaseController {
 
-	/*
-	|--------------------------------------------------------------------------
-	| Default Home Controller
-	|--------------------------------------------------------------------------
-	|
-	| You may wish to use controllers instead of, or in addition to, Closure
-	| based routes. That's great! Here is an example controller method to
-	| get you started. To route to this controller, just add the route:
-	|
-	|	Route::get('/', 'HomeController@showWelcome');
-	|
-	*/
-
+	/**
+	 * Tela inicial do site
+	 * @return Response 
+	 */
 	public function showWelcome()
 	{
+		// Define o framework
 		Former::framework('TwitterBootstrap3');
 		
+		// Exibe view
 		return View::make('home.index');
 	}
 
+	/**
+	 * Tela de recebimento dos dados do formulário de contato
+	 * @return Response 
+	 */
 	public function salvaContato()
 	{
+		// Regras de validação
 		$rules = array(
 			'name'     => 'required|max:255',
 			'email'    => 'required|email',
@@ -31,21 +29,23 @@ class HomeController extends BaseController {
 			'mensagem' => 'required'
 		);
 
+		// Cria verificação
 		$validator = Validator::make(Input::all(), $rules);
 
+		// Em caso de algum dado errado
 		if ($validator->fails())
 	    {
 	        return Redirect::to( url('/') . '#contato' )->withErrors($validator)->withInput();
 	    }
 
-	    $email = Input::all();
-
-		Mail::send('emails.contato', $email, function($message)
+	    // Envia email
+		Mail::send('emails.contato', Input::all(), function($message)
 		{
 		    $message->to('contato@carlosgartner.com.br')->subject('Novo contato via site AFGR!');
 		});
 
-		return Redirect::to('/');
+		// Volta para home
+		return Redirect::to( url('/') . '#contato' )->with('success', 'Seu contato foi recebido, em breve entraremos em contato!');
 	}
 
 }

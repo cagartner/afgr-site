@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'HomeController@showWelcome');
-
 // Salva contato
 Route::post('/contato', array('as' => 'contato', 'uses' => 'HomeController@salvaContato'));
+
+Route::get('/', 'HomeController@showWelcome');

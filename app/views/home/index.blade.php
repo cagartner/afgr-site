@@ -10,9 +10,9 @@
 
 			<div class="forma-contato">				
 				<strong>Entre em contato:</strong><br>
-				<a href="#" class="btn btn-default"><span class="socicon socicon-facebook"></span> Facebook</a>
-				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-envelope"></i> Contato</a>
-				<a href="#" class="btn btn-default"><i class="glyphicon glyphicon-phone-alt"></i> 47 3337-3333</a>
+				<a href="http://www.facebook.com.br/afgr" class="btn btn-default"><span class="socicon socicon-facebook"></span> Facebook</a>
+				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-envelope"></i> Contato</a>
+				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-phone-alt"></i> 47 3337-3333</a>
 			</div>
 
 		</div>		
@@ -33,7 +33,7 @@
 					<p>A <strong>AFGR</strong> possui atividades no ramo da Engenharia Elétrica atuando com profissionais com mais de 20 anos de experiência na área de projetos elétricos, visando satisfazer as necessidades do mercado com a melhor solução em serviços através de tecnologia utilizada e melhoria contínua dos processos e maior confiabilidade em seu sistema.</p>
 
 					<h3>OBJETIVO</h3>
-					
+
 					<p>Trabalhar em equipe e reunir o melhor do conhecimento e habilidade para aprimorar constantemente o trabalho e beneficiar nossos clientes.</p>
 				</div>
 
@@ -147,15 +147,17 @@
 
 					
 					{{ Former::vertical_open()->rules(array(
-						'name' => 'required|max:255',
-						'email' => 'required|email'
+						'name'     => 'required|max:255',
+						'email'    => 'required|email',
+						'telefone' => 'match:/[0-9 ()-]+/'
 					))->route('contato')->method('POST'); }}
 
 						{{ Former::text('name', "Seu nome")->placeholder('Seu nome...')->required() }}
 
 						{{ Former::email('email', "Seu e-mail")->placeholder('Seu e-mail...')->required() }}
 
-						{{ Former::text('telefone', "Seu telefone")->placeholder('(XX) XXXX-XXXX')->required() }}
+						{{ Former::text('telefone', "Seu telefone")
+						->placeholder('(XX) XXXX-XXXX')->required()->help("Somente números, ex: 47 3333-3333") }}
 						
 						{{ Former::textarea('mensagem', "Sua mensagem")->placeholder('Conte-nos o que você precisa...')->rows(6)->required() }}
 						
@@ -170,7 +172,7 @@
 						<li class="black">47 3333-3333 <i class="glyphicon glyphicon-phone-alt"></i></li>
 						<li class="black">47 3333-3333 <i class="glyphicon glyphicon-phone-alt"></i></li>
 						<li><a href="http://www.facebook.com/afgr" target="_blank" title="Curta-nos no Facebook">facebook.com/afgr <span class="socicon socicon-facebook"></span></a></li>
-						<li><a href="mailto:contato@afgr.com.br" target="_blank" title="Envia-nos um e-mail!">contato@afgr.com.br <i class="glyphicon glyphicon-envelope"></i></a></li>
+						<li><a href="mailto:contato@afgr.com.br" title="Envia-nos um e-mail!">contato@afgr.com.br <i class="glyphicon glyphicon-envelope"></i></a></li>
 					</ul>
 				</div>
 
@@ -181,6 +183,5 @@
 		<!-- <a href="http://www.carlosgartner.com.br" class="assinatura" target="_blank" title="Desenvolvido por Carlos A. Gartner">Carlos A Gartner</a> -->
 
 	</section>
-
 
 @stop

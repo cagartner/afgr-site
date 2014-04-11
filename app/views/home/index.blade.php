@@ -99,14 +99,14 @@
 				    <a href="{{ URL::asset('assets/img/servico/1.jpg') }}" title="Projeto de Medição e Faturamento de Energia">
 				        {{ HTML::image('assets/img/servico/thumb/1.png', "Projeto de Medição e Faturamento de Energia") }}
 				        <br>
-				        <strong>PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA</strong>
+				       	<strong>INSPEÇÃO EM EQUIPAMENTOS ELÉTRICOS</strong>
 				    </a>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">
 					<a href="{{ URL::asset('assets/img/servico/2.jpg') }}" title="Inspeção em Equipamentos Elétricos">
 				        {{ HTML::image('assets/img/servico/thumb/2.jpg', "Inspeção em Equipamentos Elétricos") }}
-				        <br>
-				        <strong>INSPEÇÃO EM EQUIPAMENTOS ELÉTRICOS</strong>
+				        <br>				        
+				        <strong>PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA</strong>
 				    </a>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">

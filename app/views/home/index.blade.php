@@ -30,9 +30,11 @@
 					<hr class="hr-title">
 					<h2>SOBRE NÓS</h2>
 
-					<p>A <strong>AFGR</strong> possui atividades no ramo da Engenharia Elétrica atuando com profissionais de mais de 20 anos de experiência na área de projetos elétricos, visando satisfazer as necessidades do mercado com a melhor solução em serviços através de tecnologia utilizada e melhoria contínua dos processos e maior confiabilidade em seu sistema.</p>
+					<p>A <strong>AFGR</strong> possui atividades no ramo da Engenharia Elétrica atuando com profissionais com mais de 20 anos de experiência na área de projetos elétricos, visando satisfazer as necessidades do mercado com a melhor solução em serviços através de tecnologia utilizada e melhoria contínua dos processos e maior confiabilidade em seu sistema.</p>
 
-					<p>Trabalhando em equipe, reunimos o melhor do conhecimento e habilidade para aprimorar constantemente o trabalho e beneficiar nossos clientes.</p>
+					<h3>OBJETIVO</h3>
+					
+					<p>Trabalhar em equipe e reunir o melhor do conhecimento e habilidade para aprimorar constantemente o trabalho e beneficiar nossos clientes.</p>
 				</div>
 
 				<div class="col-md-6 col-sm-6 col-xs-12 sobre-media">

@@ -1,31 +1,31 @@
 @extends('layout/main')
 
 @section('content')
-	
-	<!-- Banner top -->
-	<section class="banner-top" id="home">	
 
-		<div class="container">	
+	<!-- Banner top -->
+	<section class="banner-top" id="home">
+
+		<div class="container">
 			{{ HTML::image('assets/img/banner-top.jpg', 'AFGR Engenharia Elétrica') }}
 
-			<div class="forma-contato">				
+			<div class="forma-contato">
 				<strong>Entre em contato:</strong><br>
 				<a href="http://www.facebook.com.br/afgr" class="btn btn-default"><span class="socicon socicon-facebook"></span> Facebook</a>
 				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-envelope"></i> Contato</a>
 				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-phone-alt"></i> 47 8822-1088</a>
 			</div>
 
-		</div>		
+		</div>
 
 	</section>
-	
+
 	<!-- Section sobre -->
 	<section class="section sobre gray" id="sobre" name="sobre">
-		
+
 		<div class="container">
-			
+
 			<div class="row">
-				
+
 				<div class="col-md-6 col-sm-6 col-xs-12">
 					<hr class="hr-title">
 					<h2>SOBRE NÓS</h2>
@@ -44,16 +44,16 @@
 			</div>
 
 		</div>
-	
+
 	</section>
-	
+
 	<!-- Section serviços -->
 	<section class="section servicos white" id="servicos" name="servicos">
-			
+
 		<div class="container">
-			
+
 			<div class="row detalhe">
-				
+
 				<div class="col-md-4 hidden-xs hidden-sm">
 					{{ HTML::image('assets/img/servico-1.png', 'Nossos serviços') }}
 				</div>
@@ -63,9 +63,9 @@
 					<hr class="hr-title pull-right">
 					<br>
 					<h2>NOSSOS SERVIÇOS</h2>
-					
+
 					<div class="row">
-						
+
 						<div class="col-md-6">
 							<h3>Projetos elétricos:</h3>
 
@@ -95,8 +95,8 @@
 
 			</div>
 
-			<div id="gallery" class="row galeria">			
-			 	
+			<div id="gallery" class="row galeria">
+
 				<div class="col-md-3 col-sm-3 col-xs-6">
 				    <a href="{{ URL::asset('assets/img/servico/inspecao.jpg') }}" title="Inspeção em Equipamentos Elétricos">
 				        {{ HTML::image('assets/img/servico/thumb/inspecao.jpg', "Inspeção em Equipamentos Elétricos") }}
@@ -110,7 +110,7 @@
 				<div class="col-md-3 col-sm-3 col-xs-6">
 					<a href="{{ URL::asset('assets/img/servico/2.jpg') }}" title="PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA">
 				        {{ HTML::image('assets/img/servico/thumb/2.jpg', "PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA") }}
-				        <br>				        
+				        <br>
 				        <strong>PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA</strong>
 				    </a>
 				</div>
@@ -140,29 +140,29 @@
 			</div>
 
 		</div>
-	
+
 	</section>
-	
+
 	<!-- Section contato -->
 	<section class="section contato gray" id="contato" name="contato">
-		
+
 		<div class="container">
 
 			<div class="row">
-					
+
 				<div class="col-md-6 col-sm-6 col-xs-12">
 					<hr class="hr-title">
 					<h2>ENTRE EM CONTATO</h2>
 
 					<p>Peça um orçamento, ou simplesmente, chame-nos para conversar.</p>
-					
+
 					@if (Session::has('success'))
 						<div class="alert alert-success">
 							<a class="close" data-dismiss="alert">&times;</a>
 							<strong>Sucesso!</strong> {{ Session::get('success') }}.
 						</div>
 					@endif
-					
+
 					{{ Former::vertical_open()->rules(array(
 						'name'     => 'required|max:255',
 						'email'    => 'required|email',
@@ -175,10 +175,10 @@
 
 						{{ Former::text('telefone', "Seu telefone")
 						->placeholder('(XX) XXXX-XXXX')->required()->help("Somente números, ex: 47 3333-3333") }}
-						
+
 						{{ Former::textarea('mensagem', "Sua mensagem")->placeholder('Conte-nos o que você precisa...')->rows(6)->required() }}
-						
-						{{ Former::submit('Enviar contato')->class('btn btn-info') }}				
+
+						{{ Former::submit('Enviar contato')->class('btn btn-info') }}
 
 					{{Former::close()}}
 				</div>

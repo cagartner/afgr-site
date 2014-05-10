@@ -4,20 +4,20 @@ class HomeController extends BaseController {
 
 	/**
 	 * Tela inicial do site
-	 * @return Response 
+	 * @return Response
 	 */
 	public function showWelcome()
 	{
 		// Define o framework
 		Former::framework('TwitterBootstrap3');
-		
+
 		// Exibe view
 		return View::make('home.index');
 	}
 
 	/**
 	 * Tela de recebimento dos dados do formulário de contato
-	 * @return Response 
+	 * @return Response
 	 */
 	public function salvaContato()
 	{

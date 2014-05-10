@@ -39,7 +39,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand logo-top text-hide" href="#home">AFGR - Engenharia</a>
+          <a class="navbar-brand logo-top text-hide" href="#home">AFGR - Engenharia</a> <span class="pull-left" style="margin-top: 15px">Ideias inovadoras geram grandes soluções tecnológicas</span>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">

@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'database',
-			'username'  => 'root',
-			'password'  => '',
+			'host'      => 'mysql.hostinger.com.br',
+			'database'  => 'u402515741_site',
+			'username'  => 'u402515741_afgr',
+			'password'  => '6D6OQa28VR',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

@@ -41,7 +41,7 @@ class HomeController extends BaseController {
 	    // Envia email
 		Mail::send('emails.contato', Input::all(), function($message)
 		{
-		    $message->to('contato@carlosgartner.com.br')->subject('Novo contato via site AFGR!');
+		    $message->to('contato@afgr.com.br')->subject('Novo contato via site AFGR!');
 		});
 
 		// Volta para home

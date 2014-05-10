@@ -1,0 +1,13 @@
+Senha hostinger dominio: 8TEyvFPRUQ
+
+
+Mysql:
+mysql.hostinger.com.br
+BD: u402515741_site
+Usuário: u402515741_afgr
+Senha: 6D6OQa28VR
+
+
+WEBmail:
+conta: contato@afgr.com.br
+senha: JNxIPK93eU

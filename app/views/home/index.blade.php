@@ -10,9 +10,12 @@
 
 			<div class="forma-contato">
 				<strong>Entre em contato:</strong><br>
-				<a href="http://www.facebook.com.br/afgr" class="btn btn-default"><span class="socicon socicon-facebook"></span> Facebook</a>
-				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-envelope"></i> Contato</a>
+				<a href="https://www.facebook.com/pages/AFGR-Engenharia-El%C3%A9trica/699339256790930" class="btn btn-default" target="_blank"><span class="socicon socicon-facebook"></span> Facebook</a>
+				<a href="http://www.linkedin.com/company/afgr-engenharia-el%C3%A9trica" class="btn btn-default" target="_blank"><span class="socicon socicon-linkedin"></span> Linkedin</a>
+				<br>
+				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-envelope"></i> Contato</a> 
 				<a href="#contato" class="btn btn-default"><i class="glyphicon glyphicon-phone-alt"></i> 47 8822-1088</a>
+				
 			</div>
 
 		</div>
@@ -32,7 +35,9 @@
 
 					<p>A <strong>AFGR</strong> possui atividades no ramo da Engenharia Elétrica atuando com profissionais com mais de 20 anos de experiência na área de projetos elétricos, visando satisfazer as necessidades do mercado com a melhor solução em serviços através de tecnologia utilizada e melhoria contínua dos processos e maior confiabilidade em seu sistema.</p>
 
-					<h3>OBJETIVO</h3>
+					<br>
+
+					<h2>OBJETIVO</h2>
 
 					<p>Trabalhar em equipe e reunir o melhor do conhecimento e habilidade para aprimorar constantemente o trabalho e beneficiar nossos clientes.</p>
 				</div>
@@ -98,45 +103,46 @@
 			<div id="gallery" class="row galeria">
 
 				<div class="col-md-3 col-sm-3 col-xs-6">
-				    <a href="{{ URL::asset('assets/img/servico/inspecao.jpg') }}" title="Inspeção em Equipamentos Elétricos">
-				        {{ HTML::image('assets/img/servico/thumb/inspecao.jpg', "Inspeção em Equipamentos Elétricos") }}
+				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/1.jpg" title="Inspeção em Equipamentos Elétricos">
+				        {{ HTML::image('http://www.carlosgartner.com.br/afgr/assets/img/servico/thumb/1.png', "Inspeção em Equipamentos Elétricos") }}
 				        <br>
 				       	<strong>INSPEÇÃO EM EQUIPAMENTOS ELÉTRICOS</strong>
 				    </a>
-				    <a href="{{ URL::asset('assets/img/servico/inspecao-2.jpg') }}" title="Inspeção em Equipamentos Elétricos"></a>
-				    <a href="{{ URL::asset('assets/img/servico/inspecao-3.jpg') }}" title="Inspeção em Equipamentos Elétricos"></a>
-				    <a href="{{ URL::asset('assets/img/servico/inspecao-4.jpg') }}" title="Inspeção em Equipamentos Elétricos"></a>
+				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/inspecao.jpg" title="Inspeção em Equipamentos Elétricos"></a>
+				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/inspecao-2.jpg" title="Inspeção em Equipamentos Elétricos"></a>
+				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/inspecao-3.jpg" title="Inspeção em Equipamentos Elétricos"></a>
+				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/inspecao-4.jpg" title="Inspeção em Equipamentos Elétricos"></a>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">
-					<a href="{{ URL::asset('assets/img/servico/2.jpg') }}" title="PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA">
-				        {{ HTML::image('assets/img/servico/thumb/2.jpg', "PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA") }}
+					<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/2.jpg" title="PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA">
+				        {{ HTML::image('http://www.carlosgartner.com.br/afgr/assets/img/servico/thumb/2.jpg', "PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA") }}
 				        <br>
 				        <strong>PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA</strong>
 				    </a>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">
-					<a href="{{ URL::asset('assets/img/servico/projeto-comercial.jpg') }}" title="Projeto comercial / residencial">
-				        {{ HTML::image('assets/img/servico/thumb/projeto-comercial.jpg', "Projeto comercial / residencial") }}
+					<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto-comercial.jpg" title="Projeto comercial / residencial">
+				        {{ HTML::image('http://www.carlosgartner.com.br/afgr/assets/img/servico/thumb/projeto-comercial.jpg', "Projeto comercial / residencial") }}
 				        <br>
 				        <strong>PROJETO COMERCIAL / RESIDENCIAL</strong>
 				    </a>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">
-					<a href="{{ URL::asset('assets/img/servico/projeto/projeto.jpg') }}" title="Projeto comercial / residencial" target="_blank">
-				        {{ HTML::image('assets/img/servico/thumb/projeto.jpg', "Projeto de automação") }}
+					<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto.jpg" title="Projeto comercial / residencial" target="_blank">
+				        {{ HTML::image('http://www.carlosgartner.com.br/afgr/assets/img/servico/thumb/projeto.jpg', "Projeto de automação") }}
 				        <br>
 				        <strong>PROJETO DE AUTOMAÇÃO</strong>
 				    </a>
 				</div>
-				<a href="{{ URL::asset('assets/img/servico/projeto/projeto-1.jpg') }}" title="Projeto de automação"></a>
-				<a href="{{ URL::asset('assets/img/servico/projeto/projeto-2.jpg') }}" title="Projeto de automação"></a>
-			    <a href="{{ URL::asset('assets/img/servico/projeto/projeto-3.jpg') }}" title="Projeto de automação"></a>
-			    <a href="{{ URL::asset('assets/img/servico/projeto/projeto-4.jpg') }}" title="Projeto de automação"></a>
-			    <a href="{{ URL::asset('assets/img/servico/projeto/projeto-5.jpg') }}" title="Projeto de automação"></a>
-			    <a href="{{ URL::asset('assets/img/servico/projeto/projeto-6.jpg') }}" title="Projeto de automação"></a>
-			    <a href="{{ URL::asset('assets/img/servico/projeto/projeto-7.jpg') }}" title="Projeto de automação"></a>
-			    <a href="{{ URL::asset('assets/img/servico/projeto/projeto-8.jpg') }}" title="Projeto de automação"></a>
-			    <a href="{{ URL::asset('assets/img/servico/projeto/projeto-9.jpg') }}" title="Projeto de automação"></a>
+				<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-1.jpg" title="Projeto de automação"></a>
+				<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-2.jpg" title="Projeto de automação"></a>
+			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-3.jpg" title="Projeto de automação"></a>
+			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-4.jpg" title="Projeto de automação"></a>
+			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-5.jpg" title="Projeto de automação"></a>
+			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-6.jpg" title="Projeto de automação"></a>
+			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-7.jpg" title="Projeto de automação"></a>
+			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-8.jpg" title="Projeto de automação"></a>
+			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-9.jpg" title="Projeto de automação"></a>
 			</div>
 
 		</div>
@@ -187,7 +193,8 @@
 					<ul class="list list-unstyled">
 						<li class="black">47 8822-1088 - Graziel <i class="glyphicon glyphicon-phone-alt"></i></li>
 						<li class="black">47 9656-9155 - Rafael <i class="glyphicon glyphicon-phone-alt"></i></li>
-						<li><a href="http://www.facebook.com/afgr" target="_blank" title="Curta-nos no Facebook">facebook.com/afgr <span class="socicon socicon-facebook"></span></a></li>
+						<li><a href="https://www.facebook.com/pages/AFGR-Engenharia-El%C3%A9trica/699339256790930" target="_blank" title="Curta-nos no Facebook">facebook.com/afgr <span class="socicon socicon-facebook"></span></a></li>
+						<li><a href="http://www.linkedin.com/company/afgr-engenharia-el%C3%A9trica" target="_blank" title="Siga-nos no Linkedin">linkedin.com/afgr <span class="socicon socicon-linkedin"></span></a></li>
 						<li><a href="mailto:contato@afgr.com.br" title="Envia-nos um e-mail!">contato@afgr.com.br <i class="glyphicon glyphicon-envelope"></i></a></li>
 					</ul>
 

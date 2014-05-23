@@ -1,5 +1,7 @@
 Senha hostinger dominio: 8TEyvFPRUQ
 
+uyB2tpoNN4
+
 
 Mysql:
 mysql.hostinger.com.br
@@ -11,3 +13,7 @@ Senha: 6D6OQa28VR
 WEBmail:
 conta: contato@afgr.com.br
 senha: JNxIPK93eU
+
+Login Hostinger
+E-mail: almirpeixoto@gmail.com
+Senha: cachorro44

@@ -103,46 +103,46 @@
 			<div id="gallery" class="row galeria">
 
 				<div class="col-md-3 col-sm-3 col-xs-6">
-				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/1.jpg" title="Inspeção em Equipamentos Elétricos">
-				        {{ HTML::image('http://www.carlosgartner.com.br/afgr/assets/img/servico/thumb/1.png', "Inspeção em Equipamentos Elétricos") }}
+				    <a href="/assets/img/servico/1.jpg" title="Inspeção em Equipamentos Elétricos">
+				        {{ HTML::image('assets/img/servico/thumb/1.png', "Inspeção em Equipamentos Elétricos") }}
 				        <br>
 				       	<strong>INSPEÇÃO EM EQUIPAMENTOS ELÉTRICOS</strong>
 				    </a>
-				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/inspecao.jpg" title="Inspeção em Equipamentos Elétricos"></a>
-				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/inspecao-2.jpg" title="Inspeção em Equipamentos Elétricos"></a>
-				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/inspecao-3.jpg" title="Inspeção em Equipamentos Elétricos"></a>
-				    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/inspecao-4.jpg" title="Inspeção em Equipamentos Elétricos"></a>
+				    <a href="/assets/img/servico/inspecao.jpg" title="Inspeção em Equipamentos Elétricos"></a>
+				    <a href="/assets/img/servico/inspecao-2.jpg" title="Inspeção em Equipamentos Elétricos"></a>
+				    <a href="/assets/img/servico/inspecao-3.jpg" title="Inspeção em Equipamentos Elétricos"></a>
+				    <a href="/assets/img/servico/inspecao-4.jpg" title="Inspeção em Equipamentos Elétricos"></a>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">
-					<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/2.jpg" title="PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA">
-				        {{ HTML::image('http://www.carlosgartner.com.br/afgr/assets/img/servico/thumb/2.jpg', "PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA") }}
+					<a href="/assets/img/servico/2.jpg" title="PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA">
+				        {{ HTML::image('assets/img/servico/thumb/2.jpg', "PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA") }}
 				        <br>
 				        <strong>PROJETO DE MEDIÇÃO E FATURAMENTO DE ENERGIA</strong>
 				    </a>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">
-					<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto-comercial.jpg" title="Projeto comercial / residencial">
-				        {{ HTML::image('http://www.carlosgartner.com.br/afgr/assets/img/servico/thumb/projeto-comercial.jpg', "Projeto comercial / residencial") }}
+					<a href="/assets/img/servico/projeto-comercial.jpg" title="Projeto comercial / residencial">
+				        {{ HTML::image('assets/img/servico/thumb/projeto-comercial.jpg', "Projeto comercial / residencial") }}
 				        <br>
 				        <strong>PROJETO COMERCIAL / RESIDENCIAL</strong>
 				    </a>
 				</div>
 				<div class="col-md-3 col-sm-3 col-xs-6">
-					<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto.jpg" title="Projeto comercial / residencial" target="_blank">
-				        {{ HTML::image('http://www.carlosgartner.com.br/afgr/assets/img/servico/thumb/projeto.jpg', "Projeto de automação") }}
+					<a href="/assets/img/servico/projeto/projeto.jpg" title="Projeto comercial / residencial" target="_blank">
+				        {{ HTML::image('assets/img/servico/thumb/projeto.jpg', "Projeto de automação") }}
 				        <br>
 				        <strong>PROJETO DE AUTOMAÇÃO</strong>
 				    </a>
 				</div>
-				<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-1.jpg" title="Projeto de automação"></a>
-				<a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-2.jpg" title="Projeto de automação"></a>
-			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-3.jpg" title="Projeto de automação"></a>
-			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-4.jpg" title="Projeto de automação"></a>
-			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-5.jpg" title="Projeto de automação"></a>
-			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-6.jpg" title="Projeto de automação"></a>
-			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-7.jpg" title="Projeto de automação"></a>
-			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-8.jpg" title="Projeto de automação"></a>
-			    <a href="http://www.carlosgartner.com.br/afgr/assets/img/servico/projeto/projeto-9.jpg" title="Projeto de automação"></a>
+				<a href="/assets/img/servico/projeto/projeto-1.jpg" title="Projeto de automação"></a>
+				<a href="/assets/img/servico/projeto/projeto-2.jpg" title="Projeto de automação"></a>
+			    <a href="/assets/img/servico/projeto/projeto-3.jpg" title="Projeto de automação"></a>
+			    <a href="/assets/img/servico/projeto/projeto-4.jpg" title="Projeto de automação"></a>
+			    <a href="/assets/img/servico/projeto/projeto-5.jpg" title="Projeto de automação"></a>
+			    <a href="/assets/img/servico/projeto/projeto-6.jpg" title="Projeto de automação"></a>
+			    <a href="/assets/img/servico/projeto/projeto-7.jpg" title="Projeto de automação"></a>
+			    <a href="/assets/img/servico/projeto/projeto-8.jpg" title="Projeto de automação"></a>
+			    <a href="/assets/img/servico/projeto/projeto-9.jpg" title="Projeto de automação"></a>
 			</div>
 
 		</div>

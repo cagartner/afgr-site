@@ -4,8 +4,8 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.1.*",
-		"anahkiasen/former": "dev-master"
+		"laravel/framework": "4.1.0",
+		"anahkiasen/former": "3.4.3"
 	},
 	"autoload": {
 		"classmap": [

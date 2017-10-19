@@ -13,7 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     {{ HTML::style('bower_components/bootstrap/dist/css/bootstrap.min.css') }}
-    {{ HTML::style('http://www.carlosgartner.com.br/afgr/bower_components/blueimp-gallery/css/blueimp-gallery.min.css') }}
+    {{ HTML::style('bower_components/blueimp-gallery/css/blueimp-gallery.min.css') }}
     {{ HTML::style('social/socicon.css') }}
 
     <!-- Custom styles for this template -->
@@ -70,10 +70,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     {{ HTML::script('bower_components/jquery/jquery.min.js') }}
     {{ HTML::script('bower_components/bootstrap/dist/js/bootstrap.min.js') }}
-    {{ HTML::script('http://www.carlosgartner.com.br/afgr/bower_components/blueimp-gallery/js/blueimp-gallery.min.js') }}
-    {{ HTML::script('http://www.carlosgartner.com.br/afgr/bower_components/blueimp-gallery/js/blueimp-gallery-fullscreen.js') }}
-    {{ HTML::script('http://www.carlosgartner.com.br/afgr/bower_components/blueimp-gallery/js/blueimp-gallery-indicator.js') }}
-    {{ HTML::script('http://www.carlosgartner.com.br/afgr/bower_components/blueimp-gallery/js/jquery.blueimp-gallery.js') }}
+    {{ HTML::script('bower_components/blueimp-gallery/js/blueimp-gallery.min.js') }}
+    {{ HTML::script('bower_components/blueimp-gallery/js/blueimp-gallery-fullscreen.js') }}
+    {{ HTML::script('bower_components/blueimp-gallery/js/blueimp-gallery-indicator.js') }}
+    {{ HTML::script('bower_components/blueimp-gallery/js/jquery.blueimp-gallery.js') }}
     {{ HTML::script('assets/js/main.js') }}
 
     <script>
